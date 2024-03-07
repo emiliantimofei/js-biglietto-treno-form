@@ -1,5 +1,6 @@
 #red-box{
     background-color: rgb(255, 0, 157);
+    max-width: 1000px;
 }
 .titles{
     color: white;
