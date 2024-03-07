@@ -12,6 +12,11 @@
 // Solo una volta che il milestone 1 sarà completo e funzionante allora realizzeremo un form in pagina in cui l’utente potrà inserire i dati e visualizzare il calcolo finale con il prezzo.
 // Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagina (il prezzo dovrà essere formattato con massimo due decimali, per indicare i centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 // Buon pomeriggio e buon lavoro !
+let = document.getElementById('minorenne');
+let = document.getElementById('adulto');
+let = document.getElementById('pensionato');
+
+
 
 let elNomeCognome = document.getElementById('nome-cognome');
 
@@ -37,7 +42,6 @@ elGenera.addEventListener('click', function(){
     let number = elKm.value;
     let age = elFascia.value;
     console.log(testo, number, age);
-    let elBox5 = 
     elBox1.innerHTML = testo;
     elBox2.innerHTML = age;
 });
