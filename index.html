@@ -14,86 +14,88 @@
 <body>
     <div class="container mt-5" id="red-box">
         <div class="row p-4">
-            <div class="col-12 my-2">
+            <div class="col-12">
                 <h2 class="text-center titles">
                     Calcola il prezzo del tuo biglietto
                 </h2>
                 <div>
-                    <div class="d-flex justify-content-center">
-                        <div class="mx-4">
-                            <label for="testo" class="form-label mb-2">Nome Cognome</label>
-                            <input type="text" class="form-control" id="testo" value="">
+                    <div class="white-box py-4">
+                        <div class="d-flex justify-content-center">
+                            <div class="mx-4">
+                                <label for="testo" class="form-label mb-2">Nome Cognome</label>
+                                <input type="text" class="form-control border-imput" id="nome-cognome" value="">
+                            </div>
+                            <div class="mx-4">
+                                <label for="number" class="form-label mb-2">Km da percorrere</label>
+                                <input type="number" class="form-control border-imput" id="km" value="">
+                            </div>
+                            <div class="mx-4">
+                                <label for="age" class="form-label mb-2">Fascia d'età</label>
+                                <select class="form-select" id="fascia">
+                                    <option value="minorenne">Minorenne</option>
+                                    <option value="adulto">Adulto</option>
+                                    <option value="pensionato">Pensionato</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="mx-4">
-                            <label for="testo" class="form-label mb-2">Km da percorrere</label>
-                            <input type="number" class="form-control" id="testo" value="">
+                        <div class="d-flex justify-content-center my-3">
+                            <button class="mx-4 tc-btn" id="genera">
+                                Genera
+                            </button>
+                            <button class="mx-4 tc-btn" id="annulla">
+                                Annulla
+                            </button>
                         </div>
-                        <div class="mx-4">
-                            <label for="age" class="form-label mb-2">Fascia d'età</label>
-                            <select class="form-select" id="forma">
-                              <option value="junior">Minorenne</option>
-                              <option value="adult">Adulto</option>
-                              <option value="senior">Pensionato</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-center my-5">
-                        <button class="mx-4">
-                            Genera
-                        </button>
-                        <button class="mx-4">
-                            Annulla
-                        </button>
                     </div>
                 </div>
             </div>
-            <div class="col-12 my-2">
+            <div class="col-12">
                 <h2 class="text-center titles">
                     Il tuo biglietto
                 </h2>
-                <div>
+                <div class="white-box p-5">
                     <h3>
                         Dettagli Passeggeri
                     </h3>
-                    <div class="ticket-box row d-flex justify-content-between">
-                        <div class="col-4 p-3">
+                    <div class="ticket-box mt-3 row d-flex justify-content-between">
+                        <div class="col-3" id="grey-box">
                             <h5>
                                 Nome Passeggero
                             </h5>
-                            <h6>
-                                Jon Snow
+                            <h6 class="box-1">
+                                
                             </h6>
                         </div>
-                        <div class="col-2 p-3 d-flex justify-content-between flex-column">
+                        <div class="col-2 d-flex justify-content-between flex-column">
                             <h5>
                                 Offerta
                             </h5>
-                            <p>
-                                Biglietto Standard
+                            <p class="box-2">
+                                
                             </p>
                         </div>
-                        <div class="col-2 p-3 d-flex justify-content-between flex-column">
+                        <div class="col-2 d-flex justify-content-between flex-column">
                             <h5>
                                 Carrozza
                             </h5>
-                            <p>
-                                5
+                            <p  class="box-3">
+                                
                             </p>
                         </div>
-                        <div class="col-2 p-3 d-flex justify-content-between flex-column">
+                        <div class="col-2 d-flex justify-content-between flex-column">
                             <h5>
                                 Codice CP
                             </h5>
-                            <p>
-                                92911
+                            <p class="box-4">
+                                
                             </p>
                         </div>
-                        <div class="col-2 p-3 d-flex justify-content-between flex-column">
+                        <div class="col-3 d-flex justify-content-between flex-column">
                             <h5>
                                 Costo Biglietto
                             </h5>
-                            <p>
-                                2.10 €
+                            <p class="box-5">
+                                
                             </p>
                         </div>
                     </div>

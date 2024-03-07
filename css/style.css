@@ -1,7 +1,40 @@
+:root{
+    --color-generic: rgb(185, 20, 80);
+    --color-some-text: white;
+    --color-general: black;
+    --color-bg-grey-name: grey;
+}
 #red-box{
-    background-color: rgb(255, 0, 157);
+    background-color: var(--color-generic);
     max-width: 1000px;
 }
+.white-box{
+    background-color: var(--color-some-text);
+}
 .titles{
-    color: white;
+    color: var(--color-some-text);
+}
+.tc-btn{
+    background-color: var(--color-bg-grey-name);
+    padding: 5px;
+    border-radius: 5px;
+    border-color: var(--color-general);
+    color: var(--color-generic);
+    font-weight: bold;
+}
+#fascia{
+    border: solid var(--color-generic) 1px;
+}
+#km{
+    border: solid var(--color-generic) 1px;
+}
+#nome-cognome{
+    border: solid var(--color-generic) 1px;
+}
+#grey-box{
+    background-color: var(--color-bg-grey-name);
+}
+.ticket-box{
+    border-top: solid var(--color-general) 1px;
+    border-bottom: solid var(--color-general) 1px;
 }
